@@ -5,11 +5,17 @@ The RESTful API is a server-side application built using Node.js, Express.js, an
 Features:
 
 ✅ Get All Articles: GET request to "/articles" retrieves all articles from the database.
+
 ✅ Create New Article: POST request to "/articles" adds a new article to the database.
+
 ✅ Delete All Articles: DELETE request to "/articles" deletes all articles from the database.
+
 ✅ Get Specific Article: GET request to "/articles/:articleTitle" retrieves a specific article based on the article title.
+
 ✅ Update Specific Article (PUT): PUT request to "/articles/:articleTitle" updates a specific article completely with new values.
+
 ✅ Update Specific Article (PATCH): PATCH request to "/articles/:articleTitle" updates specific fields of an article.
+
 ✅ Delete Specific Article: DELETE request to "/articles/:articleTitle" deletes a specific article.
 
 Setup Instructions:
